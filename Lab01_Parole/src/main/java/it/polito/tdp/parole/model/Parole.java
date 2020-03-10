@@ -1,12 +1,13 @@
 package it.polito.tdp.parole.model;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.TreeMap;
 
 public class Parole {
 	
-	private LinkedList<String> listaParole = new LinkedList<String>();
+	private ArrayList<String> listaParole = new ArrayList<String>();
 		
 	public Parole() {
 	}
